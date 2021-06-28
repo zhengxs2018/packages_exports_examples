@@ -67,9 +67,10 @@ printMsg("hello,cjs"); // -> "hello,esm"
 
 ## 启动示例
 
-> 不需要 `npm install`
-
 ```bash
+# 安装依赖
+$ npm install
+
 # 启动 cjs 示例
 $ npm run cjs:hello
 

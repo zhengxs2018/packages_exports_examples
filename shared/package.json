@@ -3,11 +3,12 @@
   "private": true,
   "version": "0.1.0",
   "scripts": {},
-  "main": "./exports/index.js",
+  "main": "./exports/index.cjs",
+  "module": "./exports/index.mjs",
   "exports": {
     "node": {
       "import": "./exports/index.mjs",
-      "require": "./exports/index.js"
+      "require": "./exports/index.cjs"
     },
     "default": "./exports/index.mjs"
   },

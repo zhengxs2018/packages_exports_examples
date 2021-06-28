@@ -3,14 +3,13 @@
   "private": true,
   "version": "0.1.0",
   "scripts": {
-    "cjs:hello": "node ./examples/hello.js",
+    "cjs:hello": "node ./examples/hello.cjs",
     "esm:hello": "node ./examples/hello.mjs",
     "esm:remote": "node --experimental-loader ./esm/https-loader.mjs ./examples/remote.mjs"
   },
   "dependencies": {
     "shared": "./shared"
   },
-  "devDependencies": {},
   "engines": {
     "node": ">=12.16.x"
   },

@@ -1,6 +1,6 @@
 /**
  * 打印消息
- * 
+ *
  * @param {String} msg 消息内容
  * @returns {void}
  */
@@ -11,3 +11,5 @@ function printMsg(msg) {
 module.exports = {
   printMsg
 }
+
+console.log('run index.js')
