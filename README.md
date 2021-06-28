@@ -8,7 +8,7 @@
 
 **1. 在公共包的 package.json 加入条件导出**
 
-```json
+```json5
 {
   "name": "shared",
   // 降级
